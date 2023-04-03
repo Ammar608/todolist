@@ -1,0 +1,72 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.allItemTodoList{
+    margin: 1rem auto;
+    width: 60%;
+    background: rgba(6, 0, 48, 1);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.addTask{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 110, 148, 1);
+    overflow: hidden;
+}
+
+.addTask input{
+    width: 80%;
+    margin: 0.5rem;
+    padding: 0.6rem 1.5rem;
+    border-radius: 0.8rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.addTask button{
+    width: 20%;
+    padding: 0.7rem 1.5rem;
+    border-radius: 0.8rem;
+    margin-right: 0.5rem;
+    border: none;
+    background: white;
+}
+
+.addTask button:hover{
+    background: rgb(73, 73, 255);
+}
+.list{
+    color: white;
+    margin: auto;
+}
+.listItem{
+    margin: 0.5rem 0 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.listItem h2{
+    margin-left: 0.5rem;
+}
+
+.button button{
+    margin:0 0.5rem 0;
+    padding: 0.1rem 0.5rem;
+    font-weight: 900;
+    border-radius: 6px;
+    background: white;
+    border: none;
+}
+
+.button button:hover{
+    background: red;
+}
