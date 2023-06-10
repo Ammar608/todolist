@@ -27,6 +27,7 @@ function App() {
       <div className="addTask">
         <input onChange={handleChange} />
         <button onClick={addTask}>Add </button>
+        <button></button>
       </div>
 
       <div className="list">
