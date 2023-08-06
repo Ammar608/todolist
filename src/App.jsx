@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import { Task } from "./Task";
 
+const mahasiswa = ["ammar", "budi", "andri"];
 function App() {
   const [todoList, setTodoList] = useState([]);
   const [newTask, setNewTask] = useState("");
@@ -27,7 +28,6 @@ function App() {
       <div className="addTask">
         <input onChange={handleChange} />
         <button onClick={addTask}>Add </button>
-        <button></button>
       </div>
 
       <div className="list">
